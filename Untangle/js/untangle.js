@@ -158,8 +158,8 @@ function isIntersect(line1, line2){
    isInBetween(line2.startPoint.y,y,line2.endPoint.y))){
      return true;
    }
-   return false;
   }
+    return false;
 }
 
 function isInBetween(a,b,c){
